@@ -13,13 +13,12 @@ export class Calculadora {
     }
 
     Sub(): void {
-        let sub = this.numer01 - this.numer02
+        let sub = this.numer01 - this.numer02;
         console.log(sub);
     }
-
     
     div(): void {
-        let div = this.numer01 / this.numer02
+        let div = this.numer01 / this.numer02;
         console.log(div);
     }
 
@@ -28,4 +27,9 @@ export class Calculadora {
         console.log(multi);
     }
     //
+
+    rest(): void {
+        let rest = this.numer01 % this.numer02;
+        console.log(rest);
+    } 
 }
