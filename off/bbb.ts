@@ -16,11 +16,16 @@ export class Calculadora {
         let sub = this.numer01 - this.numer02
         console.log(sub);
     }
-    
+
     
     div(): void {
         let div = this.numer01 / this.numer02
         console.log(div);
     }
 
+    multi(): void {
+        let multi = this.numer01 * this.numer02; 
+        console.log(multi);
+    }
+    //
 }
