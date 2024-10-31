@@ -11,4 +11,10 @@ export class Calculadora {
         let soma = this.numer01 + this.numer02
         console.log(soma);
     }
+
+    Sub(): void {
+        let sub = this.numer01 - this.numer02
+        console.log(sub);
+    }
+    //
 }
